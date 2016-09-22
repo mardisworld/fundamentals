@@ -84,3 +84,27 @@ function calcBills(R,W,E) {
 }
 
 console.log("Your monthly bills add up to: $" +calcBills(800,75,150))
+
+var paulBills=calcBills(400,30,30);
+var jamesBills=bills(600,30,30);
+
+console.log ("James Bills: " + jamesBills);
+console.log ("Paul's Bills: " + paulBills; )
+
+
+/*------------------------GOLD-----------------------------------
+
+Write a function that helps me calculate the cost of my buying 100 sodas
+ at $.99 each(or whatever and however many I feel like buying)
+Figure in the tax there, too. The tax is 7 percent in Indiana.
+Return a message that says something like this:
+"100 Cokes will cost you $105.93."
+*/
+
+function calcCoke(numCokes,priceCokes,indTax){
+	var totalCost;
+	totalCost=numCokes*priceCokes*(1.0+indTax);
+	console.log(numCokes +" Cokes will cost you $" + totalCost);
+}
+
+calcCoke(100,0.99,0.07);
