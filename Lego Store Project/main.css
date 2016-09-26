@@ -96,7 +96,7 @@ a:active  {
 
 #cssSlider {
     background-color: white;
-    width: 1100px;
+    width: 2256px;
     height: auto;
     overflow: hidden;
     border: 0px solid #666;
@@ -105,7 +105,7 @@ a:active  {
 
 }
 
-#sliderImages {
+#sliderImages { /* times 5*/
     width: 2256px;
     height: 564px;
     overflow: hidden;
@@ -125,54 +125,54 @@ a:active  {
 @keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -1100px;}
-    37%{margin-left: -1100px;}
-    40%{margin-left: -2200px;}
-    57%{margin-left: -2200px;}
-    60%{margin-left: -3300px;}
-    77%{margin-left: -3300px;}
-    80%{margin-left: -4400px;}
-    97%{margin-left: -4400px;}
+    20%{margin-left: -2256px;}
+    37%{margin-left: -2256px;} 
+    40%{margin-left: -4512px;} 
+    57%{margin-left: -4512px;}
+    60%{margin-left: -6768px;} 
+    77%{margin-left: -6768px;}
+    80%{margin-left: -9024px;} 
+    97%{margin-left: -9024px;}
     100%{margin-left: 0px;}
 }
 
 @-moz-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -1100px;}
-    37%{margin-left: -1100px;}
-    40%{margin-left: -2200px;}
-    57%{margin-left: -2200px;}
-    60%{margin-left: -3300px;}
-    77%{margin-left: -3300px;}
-    80%{margin-left: -4400px;}
-    100%{margin-left: -4400px;}
+    20%{margin-left: -2256px;}
+    37%{margin-left: -2256px;}
+    40%{margin-left: -4512px;}
+    57%{margin-left: -4512px;}
+    60%{margin-left: -6768px;}
+    77%{margin-left: -6768px;}
+    80%{margin-left: -9024px;}
+    100%{margin-left: -9024px;}
 }
 
 @-webkit-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -1100px;}
-    37%{margin-left: -1100px;}
-    40%{margin-left: -2200px;}
-    57%{margin-left: -2200px;}
-    60%{margin-left: -3300px;}
-    77%{margin-left: -3300px;}
-    80%{margin-left: -4400px;}
-    100%{margin-left: -4400px;}
+    20%{margin-left: -2256px;}
+    37%{margin-left: -2256px;}
+    40%{margin-left: -4512px;}
+    57%{margin-left: -4512px;}
+    60%{margin-left: -6768px;}
+    77%{margin-left: -6768px;}
+    80%{margin-left: -9024px;}
+    100%{margin-left: -9024px;}
 }
 
 @-o-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -1100px;}
-    37%{margin-left: -1100px;}
-    40%{margin-left: -2200px;}
-    57%{margin-left: -2200px;}
-    60%{margin-left: -3300px;}
-    77%{margin-left: -3300px;}
-    80%{margin-left: -4400px;}
-    100%{margin-left: -4400px;}
+    20%{margin-left: -2256px;}
+    37%{margin-left: -2256px;}
+    40%{margin-left: -4512px;}
+    57%{margin-left: -4512px;}
+    60%{margin-left: -6768px;}
+    77%{margin-left: -6768px;}
+    80%{margin-left: -9024px;}
+    100%{margin-left: -9024px;}
 }
 
 #Main_Content{
