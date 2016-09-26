@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glow Makeup</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="GlowMake-up.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  
+	<!--Internal link to js/jquery file-->
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+
+		<div id="nav_bar"> <!--nav bar-->
+			<nav id="nav_text">
+				<a href="#">sign in</a> or <a href="#">create account</a> <a href="#"><img class="social_media" src="img/cart.png"></a>
+				 <a class="top_link_right" href="#"><img class="social_media" src="img/facebook.png"></a> <a class="top_link_right" href="#"><img class="social_media" src="img/twitter.png"></a> <a class="top_link_right" href="#""><img class="social_media" src="img/pinterest.png"></a> <a class="top_link_right" href="#"><img class="social_media" src="img/instagram.png"></a> <a class="top_link_right" href="#"><img class="social_media" src="img/you-tube.png"></a> 
+			</nav>
+		</div>
+
+		<header>
+			<h1><a href="#">Glow Makeup</a></h1>
+		</header>
+		<!-- start of old main nav bar -->
+		<div id="main-content-bar">
+			<!-- <nav id="main-content-nav">
+				<a class="main_link" href="#">NEW  </a>
+				<a class="main_link" href="#">SHOP  </a>
+				<a class="main_link" href="#">ABOUT  </a>
+				<a class="main_link" href="#">CONTACT  </a>
+				<a class="main_link" href="#">FAQ  </a>
+			</nav> -->
+			<ul id="main-nav-ul">
+				<li class ="dropdown"><a class="dropbtn" href="#">NEW</a>
+				    <div class="dropdown-content">
+				    	<a href="#">Fall Collection</a>
+				        <a href="#">Highlight Palette</a>
+				        <a href="#">Shiny Lip Glosses</a>
+				    </div>
+				</li>
+				<li class ="dropdown"><a class="dropbtn" href="#">SHOP</a>
+				  	<div class="dropdown-content">
+				        <a href="#">Eyes</a>
+				        <a href="#">Lips</a>
+				        <a href="#">Face</a>
+				        <a href="#">Tools</a>
+				    </div>
+			  <li>
+			  	<a href="#">ABOUT</a>
+			  	<a href="#">CONTACT</a>
+			  	<a href="#">FAQ</a>
+			  </li>
+			  <form id="search_bar">
+				<input class="search" type="text" placeholder="SEARCH" required>
+			</form>
+			</ul>
+			
+		</div>
+		<div id="main_body_of_page">
+			<div id="cssSlider">
+			  	<div id="sliderImages">
+					<img src="img/sliderimg1.png" alt="" />
+					<img src="img/sliderimg2.png" alt="" />
+					<img src="img/sliderimg3.png" alt="" />
+					<img src="img/sliderimg4.png" alt="" />
+					<img src="img/sliderimg5.png" alt="" />
+					<div style="clear:left;"></div>
+				</div>
+			</div>
+
+			<section id="product_area">
+				
+				<div id="main-face">
+					<a href="#"><img class="sections-img" src="img/face.png"></a>
+				</div>
+				<div id="main-eyes">
+					<a href="#"><img class="sections-img" src="img/eyes.png"></a>
+				</div>
+				<div id="main-lips">
+					<a href="#"><img class="sections-img" src="img/lips.png"></a>
+				</div>
+
+				<div class ="text_for_cats">
+					<a href="#"><h2>FACE</h2></a>
+				</div>
+				<div class ="text_for_cats">
+					<a href="#"><h2>EYES</h2></a>
+				</div>
+				<div class ="text_for_cats">
+					<a href="#"><h2>LIPS</h2></a>
+				</div>
+			</section>
+
+			<section id="mailing_and_new">	
+				<div id="mailing-list">
+					<h3>Never Miss a New Product</h3>
+					<p>Want to never miss a sale, new products launches, and restocks? Sign up here for our mailing list.</p>
+					
+					 <div class="input">
+		        		<input type="text" class="button" id="email"placeholder="NAME@EXAMPLE.COM">
+		        		<!-- <input type="submit" class="button" id="submit" value="SIGN UP"> -->
+		        		<button id="submit" >SUBMIT</button> 
+		      		</div>
+		      		<div class ="hidden" id="thankEmailMessage">
+		      			<p>Thank you for signing up for our mailing list!</p>
+		      		</div>
+	      		</div>
+	      		<div id="new-content">
+	      			<h3>New Products:</h3>
+	      				<a href="#"><img class="whatsnew-img" src="img/new-product-1.png"></a><a href="#"><img class="whatsnew-img" src="img/new-product-2.png"></a><a href="#"><img class="whatsnew-img"  src="img/new-product-3.png"></a>
+	      		</div>
+
+			</section>
+			
+		</div>
+			<footer id="footer">
+				<p class="footer-text-1">
+					<a href="#">Careers</a> - <a href="#">Privacy Policy</a> - <a href="#">Shipping/Return Info</a> - <a href="#">Store Locator</a> - <a href="#">Contact</a> 
+				</p>
+				<p class="footer-text-2"> &copy; 2016 Glow Makeup 
+				</p>
+			</footer>
+
+	</div>
+</body>
+</html>
