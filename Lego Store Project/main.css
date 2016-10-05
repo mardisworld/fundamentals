@@ -2,7 +2,7 @@ body {
 	background-color: lightblue;
     min-height:100%;
     min-width:100%; 
-    font-family: 'Lucida Console';
+    font-family: 'Dosis';
 }
 	
 
@@ -12,7 +12,7 @@ body {
 }
 
 a:link    {
-    color:black; 
+    color:yellow; 
     background-color:transparent; 
     text-decoration:none
 }
@@ -24,27 +24,30 @@ a:visited {
 }
 
 a:hover   {
-    color:#d45d7d; 
+    color:blue; 
     background-color:transparent; 
-    text-decoration:none
+    text-decoration:none;
 }
 
 a:active  {
-    color:#d45d7d; 
+    color:blue; 
     background-color:transparent; 
-    text-decoration:underline
+    text-decoration:none;
 }
 .h1 {
-    font-family: 'Lucida Console'; 
+    font-family: 'Dosis'; 
     text-align: left; 
     font-size: 100pt; 
     color: gray;
 }
 
 #veryTop {
+
     background-color: white;
     width: 100%;
     height: 80px;
+    display:flex;
+    justify-content: space-between;
    /*margin: 0px 0px 0px 0px;*/
 }
 
@@ -55,7 +58,7 @@ a:active  {
     background-color:white;
     border-radius: 5px;
     font-size: 30;
-    text-align: top;
+    text-align: center;
 }
 
 #Duplo_logoBox {
@@ -77,8 +80,10 @@ a:active  {
     text-align:center;
     margin-left: 4%;
     margin-right:4%;
-    box-shadow: 5px 5px 5px #888888;
+    /*box-shadow: 5px 5px 5px #888888;*/
     font-size: 30px;
+    display:flex;
+    justify-content: center;
 }
 
 #front_box{
@@ -96,7 +101,7 @@ a:active  {
 
 #cssSlider {
     background-color: white;
-    width: 2256px;
+    width: 1100px;
     height: auto;
     overflow: hidden;
     border: 0px solid #666;
@@ -106,8 +111,8 @@ a:active  {
 }
 
 #sliderImages { /* times 5*/
-    width: 2256px;
-    height: 564px;
+    width: 1100px;
+    height: 275px;
     overflow: hidden;
     
     /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
@@ -125,62 +130,63 @@ a:active  {
 @keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -2256px;}
-    37%{margin-left: -2256px;} 
-    40%{margin-left: -4512px;} 
-    57%{margin-left: -4512px;}
-    60%{margin-left: -6768px;} 
-    77%{margin-left: -6768px;}
-    80%{margin-left: -9024px;} 
-    97%{margin-left: -9024px;}
+    20%{margin-left: -1100px;}
+    37%{margin-left: -1100px;} 
+    40%{margin-left: -2200px;} 
+    57%{margin-left: -2200px;}
+    60%{margin-left: -3300px;} 
+    77%{margin-left: -3300px;}
+    80%{margin-left: -4400px;} 
+    97%{margin-left: -4400px;}
     100%{margin-left: 0px;}
 }
 
 @-moz-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -2256px;}
-    37%{margin-left: -2256px;}
-    40%{margin-left: -4512px;}
-    57%{margin-left: -4512px;}
-    60%{margin-left: -6768px;}
-    77%{margin-left: -6768px;}
-    80%{margin-left: -9024px;}
-    100%{margin-left: -9024px;}
+    20%{margin-left: -1100px;}
+    37%{margin-left: -1100px;}
+    40%{margin-left: -2200px;}
+    57%{margin-left: -2200px;}
+    60%{margin-left: -3300px;}
+    77%{margin-left: -3300px;}
+    80%{margin-left: -4400px;}
+    100%{margin-left: -4400px;}
 }
 
 @-webkit-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -2256px;}
-    37%{margin-left: -2256px;}
-    40%{margin-left: -4512px;}
-    57%{margin-left: -4512px;}
-    60%{margin-left: -6768px;}
-    77%{margin-left: -6768px;}
-    80%{margin-left: -9024px;}
-    100%{margin-left: -9024px;}
+    20%{margin-left: -1100px;}
+    37%{margin-left: -1100px;}
+    40%{margin-left: -2200px;}
+    57%{margin-left: -2200px;}
+    60%{margin-left: -3300px;}
+    77%{margin-left: -3300px;}
+    80%{margin-left: -4400px;}
+    100%{margin-left: -4400px;}
 }
 
 @-o-keyframes slide{
     0%{margin-left: 0px;}
     17%{margin-left: 0px;}
-    20%{margin-left: -2256px;}
-    37%{margin-left: -2256px;}
-    40%{margin-left: -4512px;}
-    57%{margin-left: -4512px;}
-    60%{margin-left: -6768px;}
-    77%{margin-left: -6768px;}
-    80%{margin-left: -9024px;}
-    100%{margin-left: -9024px;}
+    20%{margin-left: -1100px;}
+    37%{margin-left: -1100px;}
+    40%{margin-left: -2200px;}
+    57%{margin-left: -2200px;}
+    60%{margin-left: -3300px;}
+    77%{margin-left: -3300px;}
+    80%{margin-left: -4400px;}
+    100%{margin-left: -4400px;}
 }
 
 #Main_Content{
     background-color: white;
     width:92%;
-    height:100%;
+    height:auto;
     margin-left: 4%;
     margin-right:4%;
+    display: flex;
 
 }
 
@@ -375,6 +381,30 @@ a:active  {
     vertical-align: top;
     margin: 0px 0px 0px 0px;
 }
+
+/*
+#Backhoe_Loader {
+    display:inline-block;
+    width:49%;
+    height:auto;
+    float:center;
+    text-align:center;
+    background-color:white;
+    vertical-align: top;
+    margin: 0px 0px 0px 0px;
+}
+
+#Construction_Site {
+    display:inline-block;
+    width:49%;
+    height:auto;
+    float:center;
+    text-align:center;
+    background-color:white;
+    vertical-align: top;
+    margin: 0px 0px 0px 0px;
+}
+*/
 /*
 .top {
     position:absolute;

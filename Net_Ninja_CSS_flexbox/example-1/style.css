@@ -1,0 +1,57 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* menu base styles */
+
+nav {
+	background-color: #333;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0;
+}
+
+nav a {
+	text-decoration: none;
+	color:#fff;
+	display: block;
+	padding: 10px;
+	background-color: #777;
+	/*text-align: center;*/
+}
+
+nav a hover{
+	background-color: #555;
+}
+
+/* flex styles*/
+@media screen and (min-width:760px){
+
+nav ul { /*every ul tag in the nav is a flex container */
+	display: flex;
+	/*justify-content: flex-start; */
+	justify-content: space-around; /*can also do justify-content:space-between;
+	/*justify-content: center; This is the one for Lego Duplo*/
+	/*justify-content: flex-end; This will send them all over to the left without mixing up thier order.*/
+	/*can also have flex start default behavior left aligned; */
+}
+nav li { /*therefore every li tag is a flex element */
+	flex: 1 1 0; 
+}
+}
+
+
+

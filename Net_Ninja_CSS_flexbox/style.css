@@ -1,0 +1,81 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+    color: #333;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+   /* margin: 0 auto;*/
+}
+
+#blocks{
+	display:flex;
+	margin:10px;
+	justify-content: space-between;
+}
+
+#blocks div{
+	flex: 0 0 100px;
+	padding: 40px 0;
+	text-align: center;
+	background-color: #ccc;
+}
+
+.one{order: 0;} /*0 is default value for order*/
+.two{order: 0;}
+.three{order: 0;}
+.four{order: 0;}
+
+/*.flex-container{ /*default is alligned left, stacks on top of each other horizontally in what is essesntially a row*/
+/*	display: flex;
+	background-color: #fff;
+	flex-wrap: wrap; /*will make boxes go to bottom if browswer is minimized*/
+/*	flex-flow: row; /*this will make elements stack on top of each other*/
+/*	justify-content: center; /*this applies on the main axis, so will depend on direction of flex-flow*/
+	/*can do flex-flow row-reverse or column-reverse*/
+/*	align-content: center; /*will align items going across cross axis
+	align-items:flex-end will put it at the bottom of cross axis
+	What's the difference between align-content and align items?*/
+/*} /*this info was covered in Lesson 10*/
+
+
+/*.box {
+	height:100px;
+	flex: 0 0 200px; /*flex grow flex shrink flex basis*/
+	/*flex-grow: 1;*/
+	/*flex-basis: 500px;*/
+	/*flex-basis: 200px; /*flex basis similiar to min-width*/
+	/*min-width: 200px;*/
+	/*min-width: 100px;*/
+	/*flex-grow: 1;*/ /*this will take up all available space*/
+	/*flex-grow:1;*//*
+}
+
+.one {
+	background-color: red;
+	/*flex-basis: 100px; /*similar to minimum width in that it defines starting size for each element*/
+	/*flex-grow: 1; /*this box will take up more room than the other boxes if other boxes don't have flex-grow*/
+	/*flex-shrink: 1; /*this only will show up if browser is being minimized*/
+/*}	
+
+.two {
+	background-color: blue;
+	/*flex-basis: 200px;*/
+	/*flex-grow: 2;*/
+	/*flex-shrink: 2;*/
+/*}
+
+.three {
+	background-color: green;
+	/*flex-basis:300px;*/
+	/*flex-grow: 3*/
+	/*flex-shrink: 3;*/
+/*}
+*//*/
+/*can use like in bootstrap where columns=12*/
