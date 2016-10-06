@@ -48,7 +48,7 @@ console.log(a != c)  //returns false
 
 //!==
 var firstName=12345;
-passworld="12345"
+password="12345"
 var jamesPassword=parseInt(password);
 //!==compares type of variable and value assigned to variable
 //!==returns the opposite of the evaluation

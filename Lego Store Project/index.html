@@ -4,20 +4,40 @@
 	<title>LEGO Duplo</title>
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  
+	<!--Internal link to js/jquery file-->
+	<script type="text/javascript" src="jquery.js"></script>
 </head>
 
 
 <body>
 <div id="wrapper"> <!--wrapper-->
 	<header id="veryTop">
-		<img src="img/Lego_logo.png">
+		
 		<!--search bar here
 		click on Lego logo upwards arrow on left to get drop down menu-->
-			<section id="search_bar">
+		<ul id="main-nav-ul">
+				<li class ="dropdown"><a class="dropbtn" href="#"><img src="img/Lego_logo.png">
+				<br>
+				</a>
+				    <div class="dropdown-content">
+				    	<a href="#">HOME</a>
+				        <a href="#">PRODUCTS</a>
+				        <a href="#">GAMES</a>
+				        <a href="#">CREATE & SHARE</a>
+				        <a href="#">VIDEOS</a>
+				        <a href="#">SHOP</a>
+				    </div>
+				</li>
+			</ul>
+
+
+			<form id="search_bar">
 				<input class="search" type="text" placeholder="SEARCH" required>
 				<img src="img/lego-id.png">
 				<img src="img/flagTiny.gif">
-			</section>
+			</form>
 	</header>
 
 	<section id="Duplo_logoBox">
@@ -27,14 +47,16 @@
 	
 	<div id="nav_Bar">
 		<nav>
-			<img src="home_button2.png">
+			<img src="img/home_button2.png">
 			<a href="#">DUPLO</a>
+			<img src="img/nav_tiny_brick.png">
 			<a href="#">PRODUCTS</a>
+			<img src="img/nav_tiny_apps.png">
 			<a href="#">APPS</a>
+			<img src="img/nav_tiny_activities.png">
 			<a href="#">ACTIVITY</a>
 		</nav>
 	</div>
-
 
 	<section id="front_box">
 		<h1 class>PRODUCTS</h1>
@@ -203,12 +225,12 @@
 			<div class ="text_for_cats">
 					<a href="#"><h2>10507 My First Train Set</h2></a>
 			</div>
-<!--
+
 			<div id="Backhoe_Loader">
-					<a href="#"><img class="sections-img" src="0.13_DUPLO_backhoe_loader.jpg"></a>
+					<a href="#"><img class="sections-img" src="img/0.13_DUPLO_backhoe_loader.jpg"></a>
 			</div>
 			<div id="Construction_Site">
-					<a href="#"><img class="sections-img" src="0.14_DUPLO_construction_site.jpg"></a>
+					<a href="#"><img class="sections-img" src="img/0.14_DUPLO_construction_site.jpg"></a>
 			</div>
 			<div class ="text_for_cats">
 					<a href="#"><h2>10811 Backhoe Loader</h2></a>
@@ -216,7 +238,7 @@
 			<div class ="text_for_cats">
 					<a href="#"><h2>10813 Big Construction Site</h2></a>
 			</div>
--->
+
 
 
 		<!--	<h1>This will have a table of the products and their code numbers</h1>
@@ -241,15 +263,15 @@
 				<p class="footer-text-1">
 					<a href="#">Customer Service</a> - <a href="#">About Us</a> - <a href="#">Parents</a> - <a href="#">Educators</a> - <a href="#">LEGOLAND</a> 
 				</p>
-<!--table header should be blue-->
+<!--table header should be bluestyle="width:96%-->
 
-	<table style="width:100%">
+	<table">
 		<tr>
-			<th class="footer-text-3">Customer Service</th>
-			<th>About Us</th>
-			<th>Parents</th>
-			<th>Educators</th>
-			<th>LEGOLAND</th>
+			<td>Customer Service</td>
+			<td>About Us</td>
+			<td>Parents</td>
+			<td>Educators</td>
+			<td>LEGOLAND</td>
 		
 		</tr>
 		<tr>

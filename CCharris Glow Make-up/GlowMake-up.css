@@ -1,3 +1,5 @@
+/*Caroline's Glow*/
+
 body {
 	font-family: 'Josefin Sans', sans-serif; 
 	background-color: black;
@@ -5,6 +7,7 @@ body {
 
 #wrapper {
 	min-height: 100%;
+	margin-bottom: -70px;
     
 }
 
@@ -161,7 +164,7 @@ li.dropdown {
 }
 
 #sliderImages {
-	width : 2256px;
+	width : 5500px;
 	height: 593px;
 	overflow: hidden;
 	

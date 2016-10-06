@@ -1,4 +1,9 @@
-$(document).ready(function(){
+/*!James Handshoe
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under the MIT license
+ */
+ $(document).ready(function(){
 	$('#s3').cycle({ 
     	fx:    'fade', 
     	speed:  1500 
